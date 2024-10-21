@@ -12,7 +12,7 @@ gem "devise_token_auth", "~> 1.2.1"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
-  gem "brakeman", "6.2.1", require: false
+  gem "brakeman", "6.2.2", require: false
   gem "rubocop-rails-omakase", require: false
   gem "letter_opener_web"
 end
