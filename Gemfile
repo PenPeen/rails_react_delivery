@@ -8,7 +8,7 @@ gem "bootsnap", require: false
 gem "annotate"
 gem "rack-cors"
 gem "devise", "~> 4.8"
-gem "devise_token_auth", "~> 1.2.1"
+gem "devise_token_auth", "~> 1.2.4"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
