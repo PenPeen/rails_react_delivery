@@ -104,18 +104,18 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    devise_token_auth (1.2.3)
+    devise_token_auth (1.2.4)
       bcrypt (~> 3.0)
       devise (> 3.5.2, < 5)
-      rails (>= 4.2.0, < 7.2)
+      rails (>= 4.2.0, < 7.3)
     drb (2.2.1)
     erubi (1.13.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.5)
+    i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
-    irb (1.14.0)
+    irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.7.2)
@@ -145,7 +145,7 @@ GEM
     msgpack (1.7.2)
     mutex_m (0.2.0)
     mysql2 (0.5.6)
-    net-imap (0.4.15)
+    net-imap (0.5.0)
       date
       net-protocol
     net-pop (0.1.2)
@@ -178,7 +178,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.7)
+    rack (3.1.8)
     rack-cors (2.0.2)
       rack (>= 2.0.0)
     rack-session (2.0.0)
@@ -222,7 +222,7 @@ GEM
     rdoc (6.7.0)
       psych (>= 4.0.0)
     regexp_parser (2.9.2)
-    reline (0.5.9)
+    reline (0.5.10)
       io-console (~> 0.5)
     responders (3.1.1)
       actionpack (>= 5.2)
@@ -268,11 +268,11 @@ GEM
     unicode-display_width (2.5.0)
     warden (1.2.9)
       rack (>= 2.0.9)
-    webrick (1.8.1)
+    webrick (1.8.2)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.17)
+    zeitwerk (2.7.1)
 
 PLATFORMS
   aarch64-linux
@@ -288,7 +288,7 @@ DEPENDENCIES
   brakeman (= 6.2.1)
   debug
   devise (~> 4.8)
-  devise_token_auth (~> 1.2.1)
+  devise_token_auth (~> 1.2.4)
   letter_opener_web
   mysql2
   puma (>= 5.0)
